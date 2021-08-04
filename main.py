@@ -60,7 +60,7 @@ class CoordinateCircularBuffer:
 
 
 airpad = Airpad()
-position_buffer = CoordinateCircularBuffer(2)
+position_buffer = CoordinateCircularBuffer(5)
 
 # For webcam input:
 cap = cv2.VideoCapture(0)
